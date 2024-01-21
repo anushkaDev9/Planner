@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+background-color: black;
+color:white
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  
+  }
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
